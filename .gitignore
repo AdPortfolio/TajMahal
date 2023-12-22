@@ -1,0 +1,7 @@
+# Fichiers de configuration Xcode
+*.xcuserstate
+project.xcworkspace/
+.DS_Store
+
+# Paramètres utilisateur Xcode
+xcuserdata/
