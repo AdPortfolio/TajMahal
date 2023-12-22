@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "5. chicken-tikka-masala-with-rice-on-black-top-view-2021-08-26-18-07-30-utc.jpg",
+      "filename" : "5 1.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "5 1@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "5 1@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
