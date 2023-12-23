@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Taj Mahal.png",
+      "filename" : "TajMahal.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Taj Mahal@2x.png",
+      "filename" : "TajMahal@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Taj Mahal@3x.png",
+      "filename" : "TajMahal@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
