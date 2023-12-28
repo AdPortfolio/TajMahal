@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		590AD4F62B362E2200918AFF /* TajMahalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590AD4F52B362E2200918AFF /* TajMahalApp.swift */; };
-		590AD4F82B362E2200918AFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590AD4F72B362E2200918AFF /* ContentView.swift */; };
 		590AD4FA2B362E2400918AFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 590AD4F92B362E2400918AFF /* Assets.xcassets */; };
 		590AD4FD2B362E2400918AFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 590AD4FC2B362E2400918AFF /* Preview Assets.xcassets */; };
 		590AD5042B362FF700918AFF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590AD5032B362FF700918AFF /* Model.swift */; };
@@ -16,13 +15,17 @@
 		590AD5092B36307500918AFF /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590AD5082B36307500918AFF /* WelcomeView.swift */; };
 		590AD50B2B36308A00918AFF /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590AD50A2B36308A00918AFF /* MenuView.swift */; };
 		590AD50F2B363FCF00918AFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 590AD50E2B363FCF00918AFF /* LaunchScreen.storyboard */; };
+		59493BB72B3C702100F8741E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59493BB62B3C702100F8741E /* HeaderView.swift */; };
+		59493BB92B3C719300F8741E /* RestaurantInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59493BB82B3C719300F8741E /* RestaurantInfoView.swift */; };
+		59493BBF2B3C768B00F8741E /* PlusJakartaSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59493BBE2B3C768B00F8741E /* PlusJakartaSans-Medium.ttf */; };
+		59493BC12B3C85AD00F8741E /* Text+CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59493BC02B3C85AD00F8741E /* Text+CustomFonts.swift */; };
+		59493BC42B3C888200F8741E /* MenuAccessButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59493BC32B3C888200F8741E /* MenuAccessButtonView.swift */; };
 		59C3CCEA2B3737760021961E /* Notes in Resources */ = {isa = PBXBuildFile; fileRef = 59C3CCE92B3737760021961E /* Notes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		590AD4F22B362E2200918AFF /* TajMahal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TajMahal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		590AD4F52B362E2200918AFF /* TajMahalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TajMahalApp.swift; sourceTree = "<group>"; };
-		590AD4F72B362E2200918AFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		590AD4F92B362E2400918AFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		590AD4FC2B362E2400918AFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		590AD5032B362FF700918AFF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -31,6 +34,11 @@
 		590AD50A2B36308A00918AFF /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		590AD50C2B36346100918AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		590AD50E2B363FCF00918AFF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59493BB62B3C702100F8741E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		59493BB82B3C719300F8741E /* RestaurantInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantInfoView.swift; sourceTree = "<group>"; };
+		59493BBE2B3C768B00F8741E /* PlusJakartaSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Medium.ttf"; sourceTree = "<group>"; };
+		59493BC02B3C85AD00F8741E /* Text+CustomFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+CustomFonts.swift"; sourceTree = "<group>"; };
+		59493BC32B3C888200F8741E /* MenuAccessButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuAccessButtonView.swift; sourceTree = "<group>"; };
 		59C3CCE92B3737760021961E /* Notes */ = {isa = PBXFileReference; lastKnownFileType = text; path = Notes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,10 +73,10 @@
 			isa = PBXGroup;
 			children = (
 				590AD4F52B362E2200918AFF /* TajMahalApp.swift */,
-				590AD4F72B362E2200918AFF /* ContentView.swift */,
 				59C3CCE22B36F9EE0021961E /* Models */,
 				590AD5072B36306100918AFF /* Views */,
 				590AD5052B36301A00918AFF /* ViewModel.swift */,
+				59493BC22B3C85BD00F8741E /* SwiftUI Extensions */,
 				590AD50D2B3634EA00918AFF /* Supporting Files */,
 				590AD4FB2B362E2400918AFF /* Preview Content */,
 			);
@@ -86,7 +94,7 @@
 		590AD5072B36306100918AFF /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				590AD5082B36307500918AFF /* WelcomeView.swift */,
+				59493BB52B3C6FFC00F8741E /* WelcomeViews */,
 				590AD50A2B36308A00918AFF /* MenuView.swift */,
 			);
 			path = Views;
@@ -99,8 +107,28 @@
 				59C3CCE92B3737760021961E /* Notes */,
 				590AD50C2B36346100918AFF /* Info.plist */,
 				590AD50E2B363FCF00918AFF /* LaunchScreen.storyboard */,
+				59493BBE2B3C768B00F8741E /* PlusJakartaSans-Medium.ttf */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59493BB52B3C6FFC00F8741E /* WelcomeViews */ = {
+			isa = PBXGroup;
+			children = (
+				590AD5082B36307500918AFF /* WelcomeView.swift */,
+				59493BB62B3C702100F8741E /* HeaderView.swift */,
+				59493BB82B3C719300F8741E /* RestaurantInfoView.swift */,
+				59493BC32B3C888200F8741E /* MenuAccessButtonView.swift */,
+			);
+			path = WelcomeViews;
+			sourceTree = "<group>";
+		};
+		59493BC22B3C85BD00F8741E /* SwiftUI Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				59493BC02B3C85AD00F8741E /* Text+CustomFonts.swift */,
+			);
+			path = "SwiftUI Extensions";
 			sourceTree = "<group>";
 		};
 		59C3CCE22B36F9EE0021961E /* Models */ = {
@@ -171,6 +199,7 @@
 			files = (
 				590AD50F2B363FCF00918AFF /* LaunchScreen.storyboard in Resources */,
 				590AD4FD2B362E2400918AFF /* Preview Assets.xcassets in Resources */,
+				59493BBF2B3C768B00F8741E /* PlusJakartaSans-Medium.ttf in Resources */,
 				59C3CCEA2B3737760021961E /* Notes in Resources */,
 				590AD4FA2B362E2400918AFF /* Assets.xcassets in Resources */,
 			);
@@ -183,10 +212,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59493BC12B3C85AD00F8741E /* Text+CustomFonts.swift in Sources */,
 				590AD5092B36307500918AFF /* WelcomeView.swift in Sources */,
+				59493BB92B3C719300F8741E /* RestaurantInfoView.swift in Sources */,
+				59493BB72B3C702100F8741E /* HeaderView.swift in Sources */,
+				59493BC42B3C888200F8741E /* MenuAccessButtonView.swift in Sources */,
 				590AD50B2B36308A00918AFF /* MenuView.swift in Sources */,
 				590AD5042B362FF700918AFF /* Model.swift in Sources */,
-				590AD4F82B362E2200918AFF /* ContentView.swift in Sources */,
 				590AD5062B36301A00918AFF /* ViewModel.swift in Sources */,
 				590AD4F62B362E2200918AFF /* TajMahalApp.swift in Sources */,
 			);
