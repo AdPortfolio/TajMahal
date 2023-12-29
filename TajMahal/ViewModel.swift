@@ -10,7 +10,6 @@ import Foundation
 // Strcture qui gère toute la logique du code
 // Fait l'intermédiaire entre l'affichage et les données
 struct ViewModel {
-    
     // Stocke les entrées qui composent le menu du restaurant
     let apetizerArray : [Dish] =
     [Dish(name: "Samosas aux légumes", description: "Délicieux chaussons frits garnis de légumes épicés", allergens: "Farine de blé", ingredients: "Mélange de légumes (pommes de terre, petits pois, carottes), épices indiennes, pâte à samosa, huile", spiceLevel: .light, imageName: "Samosas"),
