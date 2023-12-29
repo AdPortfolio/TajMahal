@@ -15,6 +15,7 @@
 		590AD5092B36307500918AFF /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590AD5082B36307500918AFF /* WelcomeView.swift */; };
 		590AD50B2B36308A00918AFF /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590AD50A2B36308A00918AFF /* MenuView.swift */; };
 		590AD50F2B363FCF00918AFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 590AD50E2B363FCF00918AFF /* LaunchScreen.storyboard */; };
+		592B753D2B3D9C2D009B4486 /* MenuMealRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592B753C2B3D9C2D009B4486 /* MenuMealRowView.swift */; };
 		59493BB72B3C702100F8741E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59493BB62B3C702100F8741E /* HeaderView.swift */; };
 		59493BB92B3C719300F8741E /* RestaurantInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59493BB82B3C719300F8741E /* RestaurantInfoView.swift */; };
 		59493BBF2B3C768B00F8741E /* PlusJakartaSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59493BBE2B3C768B00F8741E /* PlusJakartaSans-Medium.ttf */; };
@@ -34,6 +35,7 @@
 		590AD50A2B36308A00918AFF /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		590AD50C2B36346100918AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		590AD50E2B363FCF00918AFF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		592B753C2B3D9C2D009B4486 /* MenuMealRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuMealRowView.swift; sourceTree = "<group>"; };
 		59493BB62B3C702100F8741E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		59493BB82B3C719300F8741E /* RestaurantInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantInfoView.swift; sourceTree = "<group>"; };
 		59493BBE2B3C768B00F8741E /* PlusJakartaSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Medium.ttf"; sourceTree = "<group>"; };
@@ -95,7 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				59493BB52B3C6FFC00F8741E /* WelcomeViews */,
-				590AD50A2B36308A00918AFF /* MenuView.swift */,
+				592B753B2B3D9C12009B4486 /* MenuViews */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -110,6 +112,15 @@
 				59493BBE2B3C768B00F8741E /* PlusJakartaSans-Medium.ttf */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		592B753B2B3D9C12009B4486 /* MenuViews */ = {
+			isa = PBXGroup;
+			children = (
+				590AD50A2B36308A00918AFF /* MenuView.swift */,
+				592B753C2B3D9C2D009B4486 /* MenuMealRowView.swift */,
+			);
+			path = MenuViews;
 			sourceTree = "<group>";
 		};
 		59493BB52B3C6FFC00F8741E /* WelcomeViews */ = {
@@ -216,6 +227,7 @@
 				590AD5092B36307500918AFF /* WelcomeView.swift in Sources */,
 				59493BB92B3C719300F8741E /* RestaurantInfoView.swift in Sources */,
 				59493BB72B3C702100F8741E /* HeaderView.swift in Sources */,
+				592B753D2B3D9C2D009B4486 /* MenuMealRowView.swift in Sources */,
 				59493BC42B3C888200F8741E /* MenuAccessButtonView.swift in Sources */,
 				590AD50B2B36308A00918AFF /* MenuView.swift in Sources */,
 				590AD5042B362FF700918AFF /* Model.swift in Sources */,
