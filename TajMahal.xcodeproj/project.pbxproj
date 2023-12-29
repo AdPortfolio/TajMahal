@@ -21,7 +21,6 @@
 		59493BBF2B3C768B00F8741E /* PlusJakartaSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59493BBE2B3C768B00F8741E /* PlusJakartaSans-Medium.ttf */; };
 		59493BC12B3C85AD00F8741E /* Text+CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59493BC02B3C85AD00F8741E /* Text+CustomFonts.swift */; };
 		59493BC42B3C888200F8741E /* MenuAccessButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59493BC32B3C888200F8741E /* MenuAccessButtonView.swift */; };
-		59C3CCEA2B3737760021961E /* Notes in Resources */ = {isa = PBXBuildFile; fileRef = 59C3CCE92B3737760021961E /* Notes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +40,6 @@
 		59493BBE2B3C768B00F8741E /* PlusJakartaSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Medium.ttf"; sourceTree = "<group>"; };
 		59493BC02B3C85AD00F8741E /* Text+CustomFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+CustomFonts.swift"; sourceTree = "<group>"; };
 		59493BC32B3C888200F8741E /* MenuAccessButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuAccessButtonView.swift; sourceTree = "<group>"; };
-		59C3CCE92B3737760021961E /* Notes */ = {isa = PBXFileReference; lastKnownFileType = text; path = Notes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +104,6 @@
 			isa = PBXGroup;
 			children = (
 				590AD4F92B362E2400918AFF /* Assets.xcassets */,
-				59C3CCE92B3737760021961E /* Notes */,
 				590AD50C2B36346100918AFF /* Info.plist */,
 				590AD50E2B363FCF00918AFF /* LaunchScreen.storyboard */,
 				59493BBE2B3C768B00F8741E /* PlusJakartaSans-Medium.ttf */,
@@ -211,7 +208,6 @@
 				590AD50F2B363FCF00918AFF /* LaunchScreen.storyboard in Resources */,
 				590AD4FD2B362E2400918AFF /* Preview Assets.xcassets in Resources */,
 				59493BBF2B3C768B00F8741E /* PlusJakartaSans-Medium.ttf in Resources */,
-				59C3CCEA2B3737760021961E /* Notes in Resources */,
 				590AD4FA2B362E2400918AFF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
