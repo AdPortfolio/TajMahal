@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5901F37A2B3EE2C200957463 /* MenuBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5901F3792B3EE2C200957463 /* MenuBackButton.swift */; };
+		5901F37C2B3EE40500957463 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5901F37B2B3EE40500957463 /* DetailsView.swift */; };
+		5901F37E2B3EE42800957463 /* DetailsImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5901F37D2B3EE42800957463 /* DetailsImageView.swift */; };
+		5901F3802B3EFAD400957463 /* DetailsDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5901F37F2B3EFAD400957463 /* DetailsDescriptionView.swift */; };
 		590AD4F62B362E2200918AFF /* TajMahalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590AD4F52B362E2200918AFF /* TajMahalApp.swift */; };
 		590AD4FA2B362E2400918AFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 590AD4F92B362E2400918AFF /* Assets.xcassets */; };
 		590AD4FD2B362E2400918AFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 590AD4FC2B362E2400918AFF /* Preview Assets.xcassets */; };
@@ -24,6 +28,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5901F3792B3EE2C200957463 /* MenuBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBackButton.swift; sourceTree = "<group>"; };
+		5901F37B2B3EE40500957463 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		5901F37D2B3EE42800957463 /* DetailsImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsImageView.swift; sourceTree = "<group>"; };
+		5901F37F2B3EFAD400957463 /* DetailsDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsDescriptionView.swift; sourceTree = "<group>"; };
 		590AD4F22B362E2200918AFF /* TajMahal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TajMahal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		590AD4F52B362E2200918AFF /* TajMahalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TajMahalApp.swift; sourceTree = "<group>"; };
 		590AD4F92B362E2400918AFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +61,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5901F3782B3EDFD900957463 /* DetailsViews */ = {
+			isa = PBXGroup;
+			children = (
+				5901F37B2B3EE40500957463 /* DetailsView.swift */,
+				5901F37D2B3EE42800957463 /* DetailsImageView.swift */,
+				5901F37F2B3EFAD400957463 /* DetailsDescriptionView.swift */,
+			);
+			path = DetailsViews;
+			sourceTree = "<group>";
+		};
 		590AD4E92B362E2200918AFF = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +114,7 @@
 			children = (
 				59493BB52B3C6FFC00F8741E /* WelcomeViews */,
 				592B753B2B3D9C12009B4486 /* MenuViews */,
+				5901F3782B3EDFD900957463 /* DetailsViews */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -116,6 +135,7 @@
 			children = (
 				590AD50A2B36308A00918AFF /* MenuView.swift */,
 				592B753C2B3D9C2D009B4486 /* MenuMealRowView.swift */,
+				5901F3792B3EE2C200957463 /* MenuBackButton.swift */,
 			);
 			path = MenuViews;
 			sourceTree = "<group>";
@@ -220,6 +240,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				59493BC12B3C85AD00F8741E /* Text+CustomFonts.swift in Sources */,
+				5901F37C2B3EE40500957463 /* DetailsView.swift in Sources */,
+				5901F37E2B3EE42800957463 /* DetailsImageView.swift in Sources */,
 				590AD5092B36307500918AFF /* WelcomeView.swift in Sources */,
 				59493BB92B3C719300F8741E /* RestaurantInfoView.swift in Sources */,
 				59493BB72B3C702100F8741E /* HeaderView.swift in Sources */,
@@ -227,8 +249,10 @@
 				59493BC42B3C888200F8741E /* MenuAccessButtonView.swift in Sources */,
 				590AD50B2B36308A00918AFF /* MenuView.swift in Sources */,
 				590AD5042B362FF700918AFF /* Model.swift in Sources */,
+				5901F3802B3EFAD400957463 /* DetailsDescriptionView.swift in Sources */,
 				590AD5062B36301A00918AFF /* ViewModel.swift in Sources */,
 				590AD4F62B362E2200918AFF /* TajMahalApp.swift in Sources */,
+				5901F37A2B3EE2C200957463 /* MenuBackButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

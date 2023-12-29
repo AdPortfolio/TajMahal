@@ -13,41 +13,43 @@ struct MenuMealRowView: View {
     let description: String
     let price: String
     let redPeppers: Int
-
+    
     var body: some View {
-        HStack {
-            Image(imageName)
-                .resizable()
-                .scaledToFill()
-                .frame(maxWidth: 112, maxHeight: 86, alignment: .center)
-                .clipShape(.rect(cornerRadius: 10))
-                .padding(5)
-
-            VStack(alignment: .leading) {
-                Text(title)
-                    .customPlusJakartaSansMedium(size: 14)
-                Spacer()
-                Text(description)
-                    .customPlusJakartaSansMedium(size: 14)
-                Spacer()
-                HStack {
-                    Text(price).customPlusJakartaSansMedium(size: 12)
-                        .lineLimit(1)
+        NavigationLink(destination: DetailsView()){
+            HStack {
+                Image(imageName)
+                    .resizable()
+                    .scaledToFill()
+                    .frame(maxWidth: 112, maxHeight: 86, alignment: .center)
+                    .clipShape(.rect(cornerRadius: 10))
+                    .padding(5)
+                
+                VStack(alignment: .leading) {
+                    Text(title)
+                        .customPlusJakartaSansMedium(size: 14)
                     Spacer()
-                    HStack(spacing: 9) {
-                        ForEach(0..<3) { index in
-                            coloredImage(color: index < redPeppers ? .red : .gray)
+                    Text(description)
+                        .customPlusJakartaSansMedium(size: 14)
+                    Spacer()
+                    HStack {
+                        Text(price).customPlusJakartaSansMedium(size: 12)
+                            .lineLimit(1)
+                        Spacer()
+                        HStack(spacing: 9) {
+                            ForEach(0..<3) { index in
+                                coloredImage(color: index < redPeppers ? .red : .gray)
+                            }
                         }
                     }
                 }
+                .padding(.top, 5)
+                .padding(.bottom, 5)
+                
             }
-            .padding(.top, 5)
-            .padding(.bottom, 5)
-           
+            .background(RoundedRectangle(cornerRadius: 12).fill(.white))
         }
-        .background(RoundedRectangle(cornerRadius: 12).fill(.white))
     }
-
+    
     func coloredImage(color: Color) -> some View {
         Image("pepper")
             .resizable()

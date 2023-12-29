@@ -37,6 +37,6 @@ struct HeaderView: View {
     }
 }
 
-#Preview {
+#Preview(traits: .sizeThatFitsLayout) {
     HeaderView()
 }
