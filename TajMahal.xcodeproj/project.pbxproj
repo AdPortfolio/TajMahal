@@ -20,6 +20,8 @@
 		590AD50B2B36308A00918AFF /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590AD50A2B36308A00918AFF /* MenuView.swift */; };
 		590AD50F2B363FCF00918AFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 590AD50E2B363FCF00918AFF /* LaunchScreen.storyboard */; };
 		592B753D2B3D9C2D009B4486 /* MenuMealRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592B753C2B3D9C2D009B4486 /* MenuMealRowView.swift */; };
+		594659C22B4C4774005695C3 /* PlusJakartaSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 594659C12B4C4774005695C3 /* PlusJakartaSans-SemiBold.ttf */; };
+		594659C42B4C4A0B005695C3 /* PlusJakartaSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 594659C32B4C4A0B005695C3 /* PlusJakartaSans-SemiBoldItalic.ttf */; };
 		59493BB72B3C702100F8741E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59493BB62B3C702100F8741E /* HeaderView.swift */; };
 		59493BB92B3C719300F8741E /* RestaurantInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59493BB82B3C719300F8741E /* RestaurantInfoView.swift */; };
 		59493BBF2B3C768B00F8741E /* PlusJakartaSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59493BBE2B3C768B00F8741E /* PlusJakartaSans-Medium.ttf */; };
@@ -43,6 +45,8 @@
 		590AD50C2B36346100918AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		590AD50E2B363FCF00918AFF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		592B753C2B3D9C2D009B4486 /* MenuMealRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuMealRowView.swift; sourceTree = "<group>"; };
+		594659C12B4C4774005695C3 /* PlusJakartaSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		594659C32B4C4A0B005695C3 /* PlusJakartaSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		59493BB62B3C702100F8741E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		59493BB82B3C719300F8741E /* RestaurantInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantInfoView.swift; sourceTree = "<group>"; };
 		59493BBE2B3C768B00F8741E /* PlusJakartaSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Medium.ttf"; sourceTree = "<group>"; };
@@ -93,7 +97,7 @@
 				590AD4F52B362E2200918AFF /* TajMahalApp.swift */,
 				59C3CCE22B36F9EE0021961E /* Models */,
 				590AD5072B36306100918AFF /* Views */,
-				590AD5052B36301A00918AFF /* ViewModel.swift */,
+				594659C02B4C2D79005695C3 /* ViewModels */,
 				59493BC22B3C85BD00F8741E /* SwiftUI Extensions */,
 				590AD50D2B3634EA00918AFF /* Supporting Files */,
 				590AD4FB2B362E2400918AFF /* Preview Content */,
@@ -126,6 +130,8 @@
 				590AD50C2B36346100918AFF /* Info.plist */,
 				590AD50E2B363FCF00918AFF /* LaunchScreen.storyboard */,
 				59493BBE2B3C768B00F8741E /* PlusJakartaSans-Medium.ttf */,
+				594659C12B4C4774005695C3 /* PlusJakartaSans-SemiBold.ttf */,
+				594659C32B4C4A0B005695C3 /* PlusJakartaSans-SemiBoldItalic.ttf */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +144,14 @@
 				5901F3792B3EE2C200957463 /* MenuBackButton.swift */,
 			);
 			path = MenuViews;
+			sourceTree = "<group>";
+		};
+		594659C02B4C2D79005695C3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				590AD5052B36301A00918AFF /* ViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		59493BB52B3C6FFC00F8741E /* WelcomeViews */ = {
@@ -227,6 +241,8 @@
 			files = (
 				590AD50F2B363FCF00918AFF /* LaunchScreen.storyboard in Resources */,
 				590AD4FD2B362E2400918AFF /* Preview Assets.xcassets in Resources */,
+				594659C22B4C4774005695C3 /* PlusJakartaSans-SemiBold.ttf in Resources */,
+				594659C42B4C4A0B005695C3 /* PlusJakartaSans-SemiBoldItalic.ttf in Resources */,
 				59493BBF2B3C768B00F8741E /* PlusJakartaSans-Medium.ttf in Resources */,
 				590AD4FA2B362E2400918AFF /* Assets.xcassets in Resources */,
 			);
