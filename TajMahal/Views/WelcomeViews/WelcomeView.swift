@@ -9,9 +9,6 @@ import SwiftUI
 
 // Page d'accueil
 struct WelcomeView: View {
-    
-    let viewModel = ViewModel()
-    
     var body: some View {
         NavigationStack {
             HeaderView()
