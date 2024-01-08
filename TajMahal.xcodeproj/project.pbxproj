@@ -22,6 +22,7 @@
 		592B753D2B3D9C2D009B4486 /* MenuMealRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592B753C2B3D9C2D009B4486 /* MenuMealRowView.swift */; };
 		594659C22B4C4774005695C3 /* PlusJakartaSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 594659C12B4C4774005695C3 /* PlusJakartaSans-SemiBold.ttf */; };
 		594659C42B4C4A0B005695C3 /* PlusJakartaSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 594659C32B4C4A0B005695C3 /* PlusJakartaSans-SemiBoldItalic.ttf */; };
+		594659C62B4C683E005695C3 /* PlusJakartaSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 594659C52B4C683E005695C3 /* PlusJakartaSans-Bold.ttf */; };
 		59493BB72B3C702100F8741E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59493BB62B3C702100F8741E /* HeaderView.swift */; };
 		59493BB92B3C719300F8741E /* RestaurantInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59493BB82B3C719300F8741E /* RestaurantInfoView.swift */; };
 		59493BBF2B3C768B00F8741E /* PlusJakartaSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59493BBE2B3C768B00F8741E /* PlusJakartaSans-Medium.ttf */; };
@@ -47,6 +48,7 @@
 		592B753C2B3D9C2D009B4486 /* MenuMealRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuMealRowView.swift; sourceTree = "<group>"; };
 		594659C12B4C4774005695C3 /* PlusJakartaSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		594659C32B4C4A0B005695C3 /* PlusJakartaSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		594659C52B4C683E005695C3 /* PlusJakartaSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Bold.ttf"; sourceTree = "<group>"; };
 		59493BB62B3C702100F8741E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		59493BB82B3C719300F8741E /* RestaurantInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantInfoView.swift; sourceTree = "<group>"; };
 		59493BBE2B3C768B00F8741E /* PlusJakartaSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Medium.ttf"; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				590AD50C2B36346100918AFF /* Info.plist */,
 				590AD50E2B363FCF00918AFF /* LaunchScreen.storyboard */,
 				59493BBE2B3C768B00F8741E /* PlusJakartaSans-Medium.ttf */,
+				594659C52B4C683E005695C3 /* PlusJakartaSans-Bold.ttf */,
 				594659C12B4C4774005695C3 /* PlusJakartaSans-SemiBold.ttf */,
 				594659C32B4C4A0B005695C3 /* PlusJakartaSans-SemiBoldItalic.ttf */,
 			);
@@ -241,6 +244,7 @@
 			files = (
 				590AD50F2B363FCF00918AFF /* LaunchScreen.storyboard in Resources */,
 				590AD4FD2B362E2400918AFF /* Preview Assets.xcassets in Resources */,
+				594659C62B4C683E005695C3 /* PlusJakartaSans-Bold.ttf in Resources */,
 				594659C22B4C4774005695C3 /* PlusJakartaSans-SemiBold.ttf in Resources */,
 				594659C42B4C4A0B005695C3 /* PlusJakartaSans-SemiBoldItalic.ttf in Resources */,
 				59493BBF2B3C768B00F8741E /* PlusJakartaSans-Medium.ttf in Resources */,
