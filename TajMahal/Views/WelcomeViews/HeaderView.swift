@@ -9,19 +9,23 @@ import SwiftUI
 
 struct HeaderView: View {
     var body: some View {
+        
         Image("TajMahal")
             .resizable()
             .aspectRatio(contentMode: .fit)
             .padding(.leading, 10)
             .padding(.trailing, 10)
             .padding(.bottom)
+        
         HStack {
             VStack(alignment: .leading) {
                 Text("Restaurant Indien")
+                    .font(.caption)
                     .fontWeight(.light)
+                
                     .foregroundStyle(.gray)
                 Text("Taj Mahal")
-                    .font(.title2)
+                    .customPlusJakartaSansSemiBold(size: 20)
                     .fontWeight(.bold)
             }
             .padding(.leading, 10)

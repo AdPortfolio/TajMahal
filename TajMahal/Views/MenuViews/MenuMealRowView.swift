@@ -12,10 +12,12 @@ struct MenuMealRowView: View {
     let title: String
     let description: String
     let price: String
-    let redPeppers: Int
+    let spiceLevel: SpiceLevel
+    let meal: Dish?
     
     var body: some View {
-        NavigationLink(destination: DetailsView()){
+        NavigationLink(destination: DetailsView(meal: meal)){
+            
             HStack {
                 Image(imageName)
                     .resizable()
@@ -26,28 +28,36 @@ struct MenuMealRowView: View {
                 
                 VStack(alignment: .leading) {
                     Text(title)
-                        .customPlusJakartaSansMedium(size: 14)
+                        .customPlusJakartaSansSemiBold(size: 14)
+                        .customGray()
+                    
                     Spacer()
+                    
                     Text(description)
                         .customPlusJakartaSansMedium(size: 14)
+                        .customGray()
+                    
                     Spacer()
+                    
                     HStack {
                         Text(price).customPlusJakartaSansMedium(size: 12)
+                            .customGray()
                             .lineLimit(1)
+                        
                         Spacer()
+                        
                         HStack(spacing: 9) {
                             ForEach(0..<3) { index in
-                                coloredImage(color: index < redPeppers ? .red : .gray)
+                                coloredImage(color: index < spiceLevel.rawValue ? Color(red: 207/255, green: 47/255, blue: 47/255) : .gray)
                             }
                         }
                     }
                 }
                 .padding(.top, 5)
                 .padding(.bottom, 5)
-                
             }
             .background(RoundedRectangle(cornerRadius: 12).fill(.white))
-        }
+        }        
     }
     
     func coloredImage(color: Color) -> some View {
@@ -63,5 +73,5 @@ struct MenuMealRowView: View {
 
 
 #Preview(traits: .sizeThatFitsLayout) {
-    MenuMealRowView(imageName: "Biryani", title: "Samosas aux légume", description: "Délicieux chaussons frits garnis de légumes épicés", price: "5,50€", redPeppers: 0)
+    MenuMealRowView(imageName: "Biryani", title: "Samosas aux légume", description: "Délicieux chaussons frits garnis de légumes épicés", price: "5,50€", spiceLevel: .hot, meal: nil)
 }

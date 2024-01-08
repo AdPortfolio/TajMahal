@@ -9,17 +9,20 @@ import SwiftUI
 
 struct MenuBackButton: View {
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
-
+    
+    var textTitle: String
     var body: some View {
         Button(action: {
             self.presentationMode.wrappedValue.dismiss()
         }) {
             Image(systemName: "chevron.left")
-                .foregroundColor(.black) // Couleur de la flèche
+                .foregroundColor(.black) 
+            Text(textTitle)
+                .foregroundStyle(.black)
         }
     }
 }
 
 #Preview {
-    MenuBackButton()
+    MenuBackButton(textTitle: "")
 }
