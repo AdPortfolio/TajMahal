@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct DetailsImageView: View {
+    
+    var meal: Dish
     var body: some View {
         
-        Image("TikkaMasala")
+        Image(meal.imageName)
             .resizable()
             .scaledToFill()
             .frame(maxWidth: 335, maxHeight: 467)
@@ -21,5 +23,5 @@ struct DetailsImageView: View {
 }
 
 #Preview(traits: .sizeThatFitsLayout) {
-    DetailsImageView()
+    DetailsImageView(meal: Dish(name: "name", description: "Description", allergens: "Allgergens", ingredients: "ingredients", spiceLevel: .hot, imageName: "Pakoras", price: "XXX"))
 }

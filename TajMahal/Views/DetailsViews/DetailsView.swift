@@ -8,21 +8,29 @@
 import SwiftUI
 
 struct DetailsView: View {
+    
+    @EnvironmentObject var viewModel: ViewModel
+    var meal: Dish?
+    
     var body: some View {
         NavigationStack {
-            DetailsImageView()
-                .padding(.top, 10)
-            DetailsDescriptionView()
+            if let meal = meal {
+                DetailsImageView(meal: meal)
+                    .padding(.top, 10)
+            }  
+           
+               
+            DetailsDescriptionView(meal: meal!)
         }
-        .navigationBarTitle("Menu")
         .navigationBarTitleDisplayMode(.inline)
         .navigationBarBackButtonHidden(true)
-        .navigationBarItems(leading: MenuBackButton())
+        .navigationBarItems(leading: MenuBackButton(textTitle: meal?.name ?? "Back"))
     }
 }
 
 #Preview {
     NavigationStack {
         DetailsView()
+            .environmentObject(ViewModel())
     }
 }

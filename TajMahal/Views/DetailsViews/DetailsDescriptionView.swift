@@ -8,20 +8,25 @@
 import SwiftUI
 
 struct DetailsDescriptionView: View {
+    
+    var meal: Dish
+
     var body: some View {
         VStack(alignment: .leading) {
             List {
-                Text("Allergènes:").customPlusJakartaSansMedium(size: 12)
+                Text("Allergènes:").customPlusJakartaSansSemiBold(size: 14)
                     .listRowSeparator(.hidden)
                     .padding(.bottom, -30)
-                Text("Lait, yaourt, beurre clarifié (ghee), crème fraîche, crème de coco, ail, oignon.").customPlusJakartaSansMedium(size: 12)
+                Text(meal.allergens).customPlusJakartaSansMedium(size: 12)
+                    .customGray()
                     .listRowSeparator(.visible)
                     .padding(.top, -10)
                 
-                Text("Ingrédients:").customPlusJakartaSansMedium(size: 12)
+                Text("Ingrédients:").customPlusJakartaSansSemiBold(size: 14)
                     .listRowSeparator(.hidden)
                     .padding(.bottom, -30)
-                Text("Poulet, oignon, tomates en purée, crème fraîche, crème de coco, huile, beurre clarifié (ghee), ail, gingembre, poudre de curcuma, poudre de cumin, poudre de coriandre, piment en poudre, sel, coriandre fraîche.").customPlusJakartaSansMedium(size: 12)
+                Text(meal.ingredients).customPlusJakartaSansMedium(size: 12)
+                    .customGray()
                     .padding(.top, -10)
             }
             .scrollContentBackground(.hidden)
@@ -40,5 +45,5 @@ struct DetailsDescriptionView: View {
 
 
 #Preview(traits: .sizeThatFitsLayout) {
-    DetailsDescriptionView()
+    DetailsDescriptionView(meal: Dish(name: "aName", description: "aDescription", allergens: "allergens", ingredients: "ingredients", spiceLevel: .hot, imageName: ""))
 }
