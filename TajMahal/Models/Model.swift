@@ -8,8 +8,8 @@
 import Foundation
 
 // Cette enumération répertorie 3 niveaux de piment
-enum SpiceLevel {
-    case light
+enum SpiceLevel: Int {
+    case light = 1
     case medium
     case hot
 }
@@ -22,4 +22,5 @@ struct Dish: Hashable {
     var ingredients: String
     var spiceLevel: SpiceLevel
     var imageName: String
+    var price: String?
 }
