@@ -18,7 +18,6 @@ struct DetailsImageView: View {
             .frame(maxWidth: 335, maxHeight: 467)
             .padding(.leading, 15)
             .padding(.trailing, 15)
-   
     }
 }
 

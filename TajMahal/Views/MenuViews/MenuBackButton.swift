@@ -11,6 +11,7 @@ struct MenuBackButton: View {
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     
     var textTitle: String
+    
     var body: some View {
         Button(action: {
             self.presentationMode.wrappedValue.dismiss()

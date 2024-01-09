@@ -10,7 +10,6 @@ import SwiftUI
 struct DetailsDescriptionView: View {
     
     var meal: Dish
-
     var body: some View {
         VStack(alignment: .leading) {
             List {
@@ -35,15 +34,9 @@ struct DetailsDescriptionView: View {
     }
 }
 
-
-
-
-
-
-
-
-
-
 #Preview(traits: .sizeThatFitsLayout) {
-    DetailsDescriptionView(meal: Dish(name: "aName", description: "aDescription", allergens: "allergens", ingredients: "ingredients", spiceLevel: .hot, imageName: ""))
+    NavigationStack {
+        DetailsDescriptionView(meal: Dish(name: "", description: "", allergens: "", ingredients: "", spiceLevel: .hot, imageName: ""))
+    }
+    .environmentObject(ViewModel())
 }

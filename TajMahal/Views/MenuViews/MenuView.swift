@@ -7,11 +7,9 @@
 
 import SwiftUI
 
-// Menu sous forme de liste
 struct MenuView: View {
-    // Référence vers le view model qui permet d'accéder aux tableaux d'entrées et de plats du menu
+    
     @EnvironmentObject var viewModel: ViewModel
-    @State private var selectedDish: Dish?
     
     init() {
         UINavigationBar.appearance().titleTextAttributes = [.font : UIFont(name: "PlusJakartaSans-Bold", size: 20)!, .foregroundColor : UIColor(red: 51/255, green: 51/255, blue: 51/255, alpha: 1)]

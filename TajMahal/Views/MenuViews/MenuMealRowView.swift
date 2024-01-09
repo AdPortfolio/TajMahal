@@ -16,8 +16,7 @@ struct MenuMealRowView: View {
     let meal: Dish?
     
     var body: some View {
-        NavigationLink(destination: DetailsView(meal: meal)){
-            
+        NavigationLink(destination: DetailsView(meal: meal)) {
             HStack {
                 Image(imageName)
                     .resizable()

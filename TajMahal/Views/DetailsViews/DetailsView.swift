@@ -9,7 +9,6 @@ import SwiftUI
 
 struct DetailsView: View {
     
-    @EnvironmentObject var viewModel: ViewModel
     var meal: Dish?
     
     var body: some View {
@@ -17,10 +16,8 @@ struct DetailsView: View {
             if let meal = meal {
                 DetailsImageView(meal: meal)
                     .padding(.top, 10)
-            }  
-           
-               
-            DetailsDescriptionView(meal: meal!)
+                DetailsDescriptionView(meal: meal)
+            }
         }
         .navigationBarTitleDisplayMode(.inline)
         .navigationBarBackButtonHidden(true)
