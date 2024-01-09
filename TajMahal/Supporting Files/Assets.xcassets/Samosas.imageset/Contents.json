@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "2. dahi-samosa-chat-2021-08-28-06-45-19-utc.jpg",
+      "filename" : "Samosas.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "Samosas@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "Samosas@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

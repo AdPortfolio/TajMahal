@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "6. kathal-biryani-or-fanas-or-jackfruit-biryani-2021-09-03-07-43-02-utc.jpg",
+      "filename" : "Biryani.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "Biryani@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "Biryani@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

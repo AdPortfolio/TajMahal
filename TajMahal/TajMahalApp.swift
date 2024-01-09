@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct TajMahalApp: App {
+    @StateObject private var viewModel: ViewModel = ViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WelcomeView()
         }
+        .environmentObject(viewModel)
     }
 }
